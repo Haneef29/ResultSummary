@@ -88,7 +88,7 @@
 @media only screen and (min-width: 1440px){
     #container{
         display: flex;
-        flex-direction: row-reverse;
+        /* flex-direction: row-reverse; */
         justify-content: center;
         width: 1440px;
         margin: 10% auto;
