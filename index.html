@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<section id="container">
+  <!-- top section -->
+  <div class="top-section">
+    <div class="first">
+      <div class="p">
+        <p>Your Result</p>
+      </div>
+      <div class="t">
+        <p > <b class="first">76</b> <br> <span class="second">of 100</span></p>
+        <!-- <p class="second">of 100 </p> -->
+      </div>
+      <div class="g">
+        <p class="one"><b>Great</b> </p>
+        <p class="two"> You scored higher than 65% of the <br> people who have taken these tests.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- bottom section -->
+  <div class="bottom-section">
+    <div class="title">
+      <p style="margin: 10px; font-size: 1.5rem;"><b> Summary</b></p>
+    </div>
+    <!-- reaction section -->
+    <div class="reaction  anoda" style="display: flex; justify-content: space-between;">
+        <div class="" style="display: flex;">
+          <div class="image">
+            <img src="./assets/images/icon-reaction.svg" alt="">
+          </div>
+          <p style="color: hsl(166, 100%, 37%); margin-left: 10px;"><b> Reaction </b></p>
+        </div>
+        <div class="com">
+          <p><b> <span>80</span>  / <span style="color: hsl(166, 100%, 37%);"> 100</span></b></p>
+        </div>
+    </div>
+    <!-- memory section -->
+    <div class="memory anoda" style="display: flex; justify-content: space-between;">
+      <div class="" style="display: flex;">
+        <div class="image">
+          <img src="./assets/images/icon-memory.svg" alt="">
+        </div>
+        <p style="color: hsl(39, 100%, 56%);  margin-left: 10px;"><b> Memory </b></p>
+      </div>
+      <div class="com">
+        <p><b><span> 92</span> / <span style="color: hsl(166, 100%, 37%);">100</span> </b></p>
+      </div>
+  </div>
+  <!-- visual section -->
+  <div class="visual anoda" style="display: flex; justify-content: space-between;">
+    <div class="" style="display: flex;">
+      <div class="image">
+        <img src="./assets/images/icon-visual.svg" alt="">
+      </div>
+      <p style="color: hsl(0, 100%, 67%);  margin-left: 10px;"><b> Visual</b> </p>
+    </div>
+    <div class="com">
+      <p> <b><span> 72</span> / <span style="color: hsl(166, 100%, 37%);"> 100</span></b> </p>
+    </div>
+</div>
+<!-- verbal section -->
+<div class="verbal anoda" style="display: flex; justify-content: space-between;">
+  <div class="" style="display: flex;">
+    <div class="image">
+      <img src="./assets/images/icon-verbal.svg" alt="">
+    </div>
+    <p style="color:  hsl(234, 85%, 45%);  margin-left: 10px;"><b> Verbal </b></p>
+  </div>
+  <div class="com">
+    <p><b><span> 61</span> / <span style="color: hsl(166, 100%, 37%);"> 100</span></b></p>
+  </div>
+</div>
+
+<div  style="text-align: center;">
+  <input class="btn" type="button" value="Continue">
+</div>
+  </div>
+  
+</section>
+
+
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.haneef.me">Haneef Adeniji</a>.
+  </div>
+</body>
+</html>
